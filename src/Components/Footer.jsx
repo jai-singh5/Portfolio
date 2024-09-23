@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Footer(props) {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
         <>
@@ -14,7 +15,7 @@ export default function Footer(props) {
                 <ul>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Education</li>
+                    <li>Projects</li>
                     <li>Contact Me</li>
                 </ul>
 
@@ -22,7 +23,7 @@ export default function Footer(props) {
             
         </div>
         <div className="footer-rights">
-            Copyright &#169; jaisportfolio.com    |    All Rights Reserved
+        Copyright &copy; {currentYear} Jai's Portfolio | All rights reserved!
         </div>
     </footer>
     </>
