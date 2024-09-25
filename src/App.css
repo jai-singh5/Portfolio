@@ -343,7 +343,22 @@
 
         .contactInfo{
             margin-top: 20px;
-            line-height: 3.5;
+            line-height: 1.8;
+        }
+
+        .linkedin{
+            font-size: 30px;
+            font-weight:500;
+        }
+        .linkedin a{
+            text-decoration: none;
+        }
+        .social{
+            font-size: 30px;
+            font-weight:500;
+        }
+        .social a{
+            text-decoration: none;
         }
         
 
