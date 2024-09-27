@@ -47,6 +47,27 @@ function Projects() {
               <p>This project is a simple clone of the X (formerly Twitter) UI using only HTML and Tailwind CSS. The goal is to replicate the main user interface of X while leveraging Tailwind CSS for utility-first styling. Features</p>
             </div></a>
             <hr />
+            <a href="https://github.com/jai-singh5/Currency-Converter.git">
+            <div className="card">
+              <img src="Currency Converter.png" alt="" />
+              <h2>Currency Converter</h2>
+              <p>A simple, user-friendly web-based currency converter that allows users to convert between multiple currencies using real-time exchange rates fetched from the ExchangeRate-API.</p>
+            </div></a>
+            <hr />
+            <a href="https://github.com/jai-singh5/Rock-Paper-Scissor.git">
+            <div className="card">
+              <img src="SPS game.png" alt="" />
+              <h2>Rock Paper Scissor</h2>
+              <p>This is a simple implementation of the classic Rock, Paper, Scissors game using HTML, CSS, and JavaScript. The user plays against the computer, and the game keeps track of the scores.</p>
+            </div></a>
+            <hr />
+            <a href="https://github.com/jai-singh5/Tic-Tac-Toe.git">
+            <div className="card">
+              <img src="Tic-Tac-Toe.png" alt="" />
+              <h2>Tic-Tac-Toe</h2>
+              <p>Welcome to the Tic-Tac-Toe game, a simple and fun project built using HTML, CSS, and JavaScript! This is the classic game where two players take turns marking spaces in a 3x3 grid, aiming to be the first to get three marks in a row (horizontally, vertically, or diagonally).</p>
+            </div></a>
+            <hr />
         </div>
       </div>
     </>
