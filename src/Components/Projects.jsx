@@ -62,6 +62,13 @@ function Projects() {
               <p>This project is a simple yet functional To-Do List application developed using JavaScript, HTML, and CSS. It allows users to add, edit, and remove tasks with ease.The simple interface and responsive design ensure a smooth user experience.</p>
             </div></a>
           <hr />
+          <a href="https://github.com/jai-singh5/News-Panda.git">
+            <div className="card">
+              <img src="News Panda.png" alt="" />
+              <h2>News Panda</h2>
+              <p>News Panda is a responsive news web application built with React that fetches real-time news using the News API. Users can browse through various categories of news including business, entertainment, health, science, sports, and technology, with the option to load more articles through infinite scrolling.</p>
+            </div></a>
+          <hr />
           <a href="https://github.com/jai-singh5/Portfolio.git">
             <div className="card">
               <img src="Portfolio.png" alt="" />
