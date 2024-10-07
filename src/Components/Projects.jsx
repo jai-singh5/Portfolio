@@ -76,6 +76,13 @@ function Projects() {
               <p>This portfolio website, built with React.js, showcases my projects, skills in a sleek and interactive format. With responsive design and layout, it highlights my expertise in web development. This site demonstrates my ability to create dynamic and professional web applications.</p>
             </div></a>
           <hr />
+          <a href="https://github.com/jai-singh5/Calculator.git">
+            <div className="card">
+              <img src="Calculator.png" alt="" />
+              <h2>Calculator</h2>
+              <p>A simple, user-friendly calculator built using HTML, CSS, and JavaScript. This calculator performs basic arithmetic operations including addition, subtraction, multiplication, and division.</p>
+            </div></a>
+          <hr />
         </div>
       </div>
     </>
