@@ -76,9 +76,9 @@ const onButtonClick = () => {
                         <span>
                             JOB RESPONSIBILITY :
                             <li>Contacts customers who have made inquiries</li>
-                            <li>Answering questions about a company’s products or services</li>
+                            <li>Answering questions about a company&apos;s products or services</li>
                             <li>Processing orders and transactions</li>
-                            <li>Delivering information about a company’s offerings</li>
+                            <li>Delivering information about a company&apos;s offerings</li>
                             <li>Collecting and analyzing customer feedback</li>
                             <li>Developing and documenting knowledge into helpful content</li>
                         </span>

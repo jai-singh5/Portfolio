@@ -10,7 +10,7 @@ function Projects() {
             <div className="card">
               <img src="Fuel My Work!.png" alt="" />
               <h2>Fuel My Work!</h2>
-              <p>Fuel My Work is a crowdfunding platform built with Next.js and Tailwind CSS, designed for fans to financially support their favorite creators' projects. It empowers creators—developers, artists, and influencers—to bring their ideas to life with the backing of their community.</p>
+              <p>Fuel My Work is a crowdfunding platform built with Next.js and Tailwind CSS, designed for fans to financially support their favorite creators projects. It empowers creators—developers, artists, and influencers—to bring their ideas to life with the backing of their community.</p>
             </div></a>
           <hr />
           <a href="https://github.com/jai-singh5/Spotify-Clone.git">
