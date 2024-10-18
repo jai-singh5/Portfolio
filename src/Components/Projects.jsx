@@ -83,6 +83,13 @@ function Projects() {
               <p>A simple, user-friendly calculator built using HTML, CSS, and JavaScript. This calculator performs basic arithmetic operations including addition, subtraction, multiplication, and division.</p>
             </div></a>
           <hr />
+          <a href="https://github.com/jai-singh5/J-Mart.git">
+            <div className="card">
+              <img src="J-Mart.png" alt="" />
+              <h2>J-Mart</h2>
+              <p>Welcome to J-MART, an e-commerce platform built with React and Bootstrap. J-MART offers a seamless shopping experience with a modern user interface and dynamic functionalities. This project demonstrates a clean and responsive design for online shopping.</p>
+            </div></a>
+          <hr />
         </div>
       </div>
     </>

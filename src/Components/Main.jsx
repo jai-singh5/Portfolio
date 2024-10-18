@@ -42,8 +42,8 @@ const onButtonClick = () => {
     document.body.removeChild(link);
 };
   return (
+    <>
     <div>
-      
       <main>
         <section className="firstSection">
             <div className="leftSection">
@@ -89,5 +89,6 @@ const onButtonClick = () => {
     </main>
     </div>
    
+    </>
   )
 }
