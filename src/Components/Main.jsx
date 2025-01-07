@@ -33,13 +33,20 @@ export default function Main(props) {
 
 
 const onButtonClick = () => {
-    const pdfUrl = "Sample.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Jai RESUME (1).docx"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const pdfUrl = "Sample.pdf";
+    // const link = document.createElement("a");
+    // link.href = pdfUrl;
+    // link.download = "Jai RESUME (1).docx"; // specify the filename
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    // const link = document.createElement("a");
+    // link.href = "/Jai Singh Resume.pdf"; // Path to your PDF file in the public folder
+    // link.download = "Resume.pdf"; // Default download filename
+    // window.open(pdfUrl, "_blank"); // Opens the PDF in a new tab
+    // link.click();
+    const pdfUrl = "/Jai Singh Resume.pdf"; // Path to your PDF file in the public folder
+    window.open(pdfUrl, "_blank"); // Opens the PDF in a new tab
 };
   return (
     <>
@@ -52,7 +59,7 @@ const onButtonClick = () => {
                 {/* Element to display typing strings */}
                     <span id="element" ref={el}></span>
                 <div className="buttons">
-                    <button className="btn mx-1" id="resume" onClick={onButtonClick} value="download">Download Resume</button>
+                    <button className="btn mx-1" id="resume" onClick={onButtonClick} value="download">View Resume</button>
                     <button className="btn mx-1" id="github" onClick={GitHub}value="github">Visit GitHub</button>
                 </div>
             </div>
@@ -78,7 +85,7 @@ const onButtonClick = () => {
                             <li>Contacts customers who have made inquiries</li>
                             <li>Answering questions about a company&apos;s products or services</li>
                             <li>Processing orders and transactions</li>
-                            <li>Delivering information about a company&apos;s offerings</li>
+                            <li>Delivering information about a company&apos;s services.</li>
                             <li>Collecting and analyzing customer feedback</li>
                             <li>Developing and documenting knowledge into helpful content</li>
                         </span>
